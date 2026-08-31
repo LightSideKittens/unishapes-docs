@@ -176,9 +176,8 @@ export default function GettingStartedPage() {
           </h2>
 
           <p className="text-white/70 mb-6">
-            UniShapes is one UPM package, <code>media.lightside.unishapes</code>. Install it from
-            the Light Side registry or from the Asset Store — the package contents are identical,
-            only the delivery differs. Both pull in <code>media.lightside.core</code>, which owns
+            UniShapes is one UPM package, <code>media.lightside.unishapes</code>, delivered through
+            the Light Side scoped registry. It pulls in <code>media.lightside.core</code>, which owns
             the shared shader, paint and gradient types.
           </p>
 
@@ -227,22 +226,6 @@ alwaysAuth = true`}
                 resolves from the registry, and every later version is a version bump in the same
                 file.
               </p>
-            </div>
-
-            <div className="p-6 rounded-xl bg-white/5 border border-white/10">
-              <h3 className="font-semibold mb-4">Asset Store</h3>
-
-              <ol className="space-y-2 text-white/70 list-decimal list-inside">
-                <li>Buy UniShapes on the Unity Asset Store with the account you develop under</li>
-                <li>
-                  In Unity, open <strong>Window &rarr; Package Manager</strong> and switch the
-                  source to <strong>My Assets</strong>
-                </li>
-                <li>
-                  Select UniShapes, then <strong>Download</strong> and <strong>Import</strong>. The
-                  same window installs updates later
-                </li>
-              </ol>
             </div>
           </div>
 
