@@ -67,7 +67,7 @@ const LAYERS = [
     type: 'StrokeLayer',
     paint: 'Color',
     params: 'Width 2, Alignment 0',
-    notes: 'Alignment runs −1 (fully inside) → 0 (centred on the outline) → +1 (fully outside)',
+    notes: 'Alignment runs −1 (fully inside) → 0 (centered on the outline) → +1 (fully outside)',
   },
   {
     type: 'ShadowLayer',
@@ -601,7 +601,7 @@ glow.Fill.Blend = LayerBlend.Additive;`}
           </h2>
 
           <p className="text-white/70 mb-4">
-            Every layer takes a full <code>ShapePaint</code>, not just a colour. A paint has a
+            Every layer takes a full <code>ShapePaint</code>, not just a color. A paint has a
             source (<code>Solid</code>, <code>Gradient</code> or <code>Texture</code>), a projection
             that decides how that source is laid across the shape, a blend mode, and a tint —{' '}
             <code>Color</code> — that multiplies into a sampled source.
@@ -676,13 +676,13 @@ public class SunsetFill : MonoBehaviour
                       <td className="py-2 pr-4">
                         <code>Radial</code>
                       </td>
-                      <td className="py-2">Outward from the projection centre</td>
+                      <td className="py-2">Outward from the projection center</td>
                     </tr>
                     <tr className="border-b border-white/5">
                       <td className="py-2 pr-4">
                         <code>Angular</code>
                       </td>
-                      <td className="py-2">Around the centre by angle — a conic sweep</td>
+                      <td className="py-2">Around the center by angle — a conic sweep</td>
                     </tr>
                     <tr>
                       <td className="py-2 pr-4">
@@ -753,7 +753,7 @@ pattern.Fill.Paint = value;`}
               <Notice type="info" className="mt-4">
                 Sampled sources fail visibly, never silently: a texture paint with no texture
                 renders magenta, and a gradient with no stops falls back to its tint as a flat
-                colour.
+                color.
               </Notice>
             </div>
           </div>
@@ -935,7 +935,7 @@ shape.Shape = vector;`}
           <p className="text-white/70 mb-6">
             A <code>TracedShapeAsset</code> pairs a sprite with the contour traced from its alpha
             silhouette, so a stroke, a shadow or a distance gradient can follow artwork that was
-            never authored as a vector. The tracer is Moore-neighbour boundary following with
+            never authored as a vector. The tracer is Moore-neighbor boundary following with
             Ramer–Douglas–Peucker simplification, written in-package — no external tracing
             dependency.
           </p>
@@ -1038,7 +1038,7 @@ public class BadgeOutline : MonoBehaviour
               </h3>
 
               <p className="text-white/70 mb-4">
-                A <code>ShapeLibrary</code> is a named catalogue of outlines. Each entry may use any
+                A <code>ShapeLibrary</code> is a named catalog of outlines. Each entry may use any
                 provider, so one library mixes primitives, vector paths and traced sprites; a shape
                 picks an entry by name, case-insensitively.
               </p>

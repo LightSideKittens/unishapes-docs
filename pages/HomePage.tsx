@@ -64,13 +64,13 @@ const HIGHLIGHTS: Highlight[] = [
     icon: Scan,
     title: 'Sprite Tracing',
     description:
-      'Moore-neighbour contour tracing with Ramer–Douglas–Peucker simplification turns a sprite silhouette into an editable outline, in-package and dependency-free',
+      'Moore-neighbor contour tracing with Ramer–Douglas–Peucker simplification turns a sprite silhouette into an editable outline, in-package and dependency-free',
   },
   {
     icon: Palette,
     title: 'Unlimited-Stop Gradients',
     description:
-      'Colour and alpha share one stop list, interpolated in sRGB, linear light, Oklab or hard steps. Ramps bake into a shared atlas, so gradient shapes still batch',
+      'Color and alpha share one stop list, interpolated in sRGB, linear light, Oklab or hard steps. Ramps bake into a shared atlas, so gradient shapes still batch',
   },
   {
     icon: CircleDot,
